@@ -7,10 +7,11 @@ set -e
 . /opt/ros/galactic/setup.bash
 # export ROS_DOMAIN_ID=0
 
-# roundtrip_mode="Relay"
 net="wifi" # "ethernet"
 
+echo testing with $net
 
+echo RMW is cyclonedds now
 for msg in Array1k Array4k Array16k Array64k Array256k Array1m Array2m PointCloud512k PointCloud1m PointCloud2m
 do
     echo testing $msg
@@ -21,7 +22,7 @@ do
     sleep 3
 done
 
-
+echo RMW is fastdds now
 for msg in Array1k Array4k Array16k Array64k Array256k Array1m Array2m PointCloud512k PointCloud1m PointCloud2m
 do
     echo testing $msg
@@ -32,7 +33,23 @@ do
     sleep 3
 done
 
-# export ROS_LOCALHOST_ONLY=1
+echo RMW is Zenoh now
+export ROS_LOCALHOST_ONLY=1
+
+for msg in Array1k Array4k Array16k Array64k Array256k Array1m Array2m PointCloud512k PointCloud1m PointCloud2m
+do
+    echo testing $msg
+    ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_zenoh_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
+    ssh jqzhang@192.168.50.49 "cd /home/jqzhang/workspace/tracing_ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
+    ROS_LOCALHOST_ONLY=1 ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_zenoh_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
+    echo sleep 3s
+    sleep 3
+done
+
+
+./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
+ssh jqzhang@192.168.50.49 "cd /home/jqzhang/workspace/tracing_ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
+ROS_LOCALHOST_ONLY=1 ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
 
 # rmw_fastrtps_cpp
 
