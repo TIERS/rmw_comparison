@@ -7,7 +7,11 @@ set -e
 . /opt/ros/galactic/setup.bash
 # export ROS_DOMAIN_ID=0
 
-net="wifi" # "ethernet"
+net=wifi # ethernet
+user=jqzhang
+sship=192.168.50.49
+ws=/home/jqzhang/workspace/tracing_ws
+
 
 echo testing with $net
 
@@ -16,7 +20,7 @@ for msg in Array1k Array4k Array16k Array64k Array256k Array1m Array2m PointClou
 do
     echo testing $msg
     RMW_IMPLEMENTATION=rmw_cyclonedds_cpp ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_cyclonedds_${msg}_r10_pub_2laptops_Relay.csv --roundtrip-mode Relay &
-    ssh jqzhang@192.168.50.49 "cd /home/jqzhang/workspace/tracing_ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
+    ssh $user@$sship "cd $ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
     RMW_IMPLEMENTATION=rmw_cyclonedds_cpp ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_cyclonedds_${msg}_r10_sub_2laptops_Main.csv --roundtrip-mode Main" 
     echo sleep 3s
     sleep 3
@@ -27,7 +31,7 @@ for msg in Array1k Array4k Array16k Array64k Array256k Array1m Array2m PointClou
 do
     echo testing $msg
     RMW_IMPLEMENTATION=rmw_fastrtps_cpp ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_fastdds_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
-    ssh jqzhang@192.168.50.49 "cd /home/jqzhang/workspace/tracing_ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
+    ssh $user@$sship "cd $ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
     RMW_IMPLEMENTATION=rmw_fastrtps_cpp ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_fastdds_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
     echo sleep 3s
     sleep 3
@@ -40,13 +44,13 @@ for msg in Array1k Array4k Array16k Array64k Array256k Array1m Array2m PointClou
 do
     echo testing $msg
     ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_zenoh_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
-    ssh jqzhang@192.168.50.49 "cd /home/jqzhang/workspace/tracing_ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
+    ssh $user@$sship "cd $ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
     ROS_LOCALHOST_ONLY=1 ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_zenoh_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
     echo sleep 3s
     sleep 3
 done
 
-
+# MQTT
 ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
 ssh jqzhang@192.168.50.49 "cd /home/jqzhang/workspace/tracing_ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
 ROS_LOCALHOST_ONLY=1 ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
