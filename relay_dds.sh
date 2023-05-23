@@ -43,17 +43,46 @@ export ROS_LOCALHOST_ONLY=1
 for msg in Array1k Array4k Array16k Array64k Array256k Array1m Array2m PointCloud512k PointCloud1m PointCloud2m
 do
     echo testing $msg
-    ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_zenoh_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
+    ROS_LOCALHOST_ONLY=1 RMW_IMPLEMENTATION=rmw_cyclonedds_cpp ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_zenoh_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
     ssh $user@$sship "cd $ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
-    ROS_LOCALHOST_ONLY=1 ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_zenoh_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
+    ROS_LOCALHOST_ONLY=1 RMW_IMPLEMENTATION=rmw_cyclonedds_cpp ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_zenoh_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
     echo sleep 3s
     sleep 3
 done
 
 # MQTT
-./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
-ssh jqzhang@192.168.50.49 "cd /home/jqzhang/workspace/tracing_ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
-ROS_LOCALHOST_ONLY=1 ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
+echo RMW is MQTT now
+export ROS_LOCALHOST_ONLY=1
+mqttbrokerip=192.168.193.113
+
+for msg in Array1k Array4k Array16k Array64k Array256k Array1m Array2m PointCloud512k PointCloud1m PointCloud2m
+do
+    echo testing $msg
+    echo starting broker
+    ssh tiers@$mqttbrokerip mosquitto -c /home/tiers/workspace/mosquitto/config/mosquitto.config
+    echo starting mqtt_client
+    . launch_mqtt_client.sh $msg & ssh $user@$sship . launch_mqtt_client.sh $msg
+    # ros2 launch mqtt_client standalone.launch.ros2.xml params_file:=/home/jqzhang/workspace/tracing_ws/src/mqtt_client/mqtt_client/config/params.ros2.yaml
+    echo sleep 3s
+    sleep 3s
+    echo start mqtt test 
+    ROS_LOCALHOST_ONLY=1 RMW_IMPLEMENTATION=rmw_cyclonedds_cpp ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
+    ssh $user@$sship "cd $ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
+    ROS_LOCALHOST_ONLY=1 RMW_IMPLEMENTATION=rmw_cyclonedds_cpp ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
+    echo sleep 2s
+    sleep 2s
+    echo stop mqtt_client and broker
+    kill $(ps aux | grep '[n]ode:=mqtt_client' | awk '{print $2}') & ssh $user@$sship kill $(ps aux | grep '[n]ode:=mqtt_client' | awk '{print $2}')
+    ssh tiers@$mqttbrokerip kill $(ps aux | grep '[m]osquitto' | awk '{print $2}')
+    echo sleep 10s
+    sleep 10s
+done
+
+# ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_pub_2laptops_Relay.csv --reliability RELIABLE --roundtrip-mode Relay &
+# ssh jqzhang@192.168.50.49 "cd /home/jqzhang/workspace/tracing_ws; . /opt/ros/galactic/setup.bash; . install/setup.bash; \
+# ROS_LOCALHOST_ONLY=1 ./install/performance_test/lib/performance_test/perf_test -c rclcpp-single-threaded-executor -r 10 -m $msg --max-runtime 30 --logfile experiment/${net}_mqtt_${msg}_r10_sub_2laptops_Main.csv --reliability RELIABLE --roundtrip-mode Main"
+
+
 
 # rmw_fastrtps_cpp
 
