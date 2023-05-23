@@ -1,0 +1,12 @@
+mqtt_client:
+  ros__parameters:
+    broker:
+      host: localhost
+      port: 1883
+    bridge:
+      ros2mqtt:
+        ros_topic: /test_topicmain_PointCloud1m
+        mqtt_topic: test_topic_mqtt_main/ros_PointCloud1m
+      mqtt2ros:
+        mqtt_topic: test_topic_mqtt_relay/ros_PointCloud1m
+        ros_topic: /test_topicrelay_PointCloud1m
