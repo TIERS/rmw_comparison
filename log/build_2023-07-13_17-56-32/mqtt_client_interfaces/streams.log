@@ -1,0 +1,254 @@
+[0.030s] Invoking command in '/home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd:/home/jqzhang/workspace/tracing_ws/install/ros2trace:/home/jqzhang/workspace/tracing_ws/install/ros2cli:/home/jqzhang/workspace/tracing_ws/install/ament_uncrustify:/home/jqzhang/workspace/tracing_ws/install/tracetools_trace:/home/jqzhang/workspace/tracing_ws/install/tracetools_analysis:/home/jqzhang/workspace/tracing_ws/install/tracetools_read:/home/jqzhang/workspace/tracing_ws/install/rpyutils:/home/jqzhang/workspace/tracing_ws/install/rosidl_cli:/home/jqzhang/workspace/tracing_ws/install/launch_testing:/home/jqzhang/workspace/tracing_ws/install/launch:/home/jqzhang/workspace/tracing_ws/install/osrf_pycommon:/home/jqzhang/workspace/tracing_ws/install/domain_coordinator:/home/jqzhang/workspace/tracing_ws/install/ament_xmllint:/home/jqzhang/workspace/tracing_ws/install/ament_pep257:/home/jqzhang/workspace/tracing_ws/install/ament_package:/home/jqzhang/workspace/tracing_ws/install/ament_mypy:/home/jqzhang/workspace/tracing_ws/install/ament_lint_cmake:/home/jqzhang/workspace/tracing_ws/install/ament_flake8:/home/jqzhang/workspace/tracing_ws/install/ament_copyright:/home/jqzhang/workspace/tracing_ws/install/ament_lint:/home/jqzhang/workspace/tracing_ws/install/ament_index_python:/home/jqzhang/workspace/tracing_ws/install/ament_cpplint:/home/jqzhang/workspace/tracing_ws/install/ament_cppcheck:/home/jqzhang/workspace/turtlebot_cmd_ws/install/turtlebot_cmd:/opt/ros/galactic /usr/bin/cmake /home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client_interfaces -DCMAKE_INSTALL_PREFIX=/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces
+[0.093s] -- The C compiler identification is GNU 9.4.0
+[0.148s] -- The CXX compiler identification is GNU 9.4.0
+[0.156s] -- Check for working C compiler: /usr/bin/cc
+[0.225s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.226s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.305s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++
+[0.382s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.383s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.1.6 (/home/jqzhang/workspace/tracing_ws/install/ament_cmake/share/ament_cmake/cmake)
+[0.514s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.514s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.646s] -- Found rosidl_default_generators: 1.1.1 (/home/jqzhang/workspace/tracing_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[0.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[0.683s] -- Found rosidl_adapter: 2.2.3 (/home/jqzhang/workspace/tracing_ws/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[0.833s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.866s] -- Found FastRTPS: /home/jqzhang/workspace/tracing_ws/install/fastrtps/include  
+[0.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[0.991s] -- Found std_msgs: 2.2.4 (/home/jqzhang/workspace/tracing_ws/install/std_msgs/share/std_msgs/cmake)
+[1.071s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.285s] -- Found ament_cmake_ros: 0.9.2 (/home/jqzhang/workspace/tracing_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[1.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[1.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[1.615s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.618s] -- Found python_cmake_module: 0.8.1 (/home/jqzhang/workspace/tracing_ws/install/python_cmake_module/share/python_cmake_module/cmake)
+[1.664s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.664s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.664s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.664s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.692s] -- Found PythonExtra: .so  
+[1.844s] -- Configuring done
+[1.880s] -- Generating done
+[1.881s] -- Build files have been written to: /home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces
+[1.888s] Invoked command in '/home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd:/home/jqzhang/workspace/tracing_ws/install/ros2trace:/home/jqzhang/workspace/tracing_ws/install/ros2cli:/home/jqzhang/workspace/tracing_ws/install/ament_uncrustify:/home/jqzhang/workspace/tracing_ws/install/tracetools_trace:/home/jqzhang/workspace/tracing_ws/install/tracetools_analysis:/home/jqzhang/workspace/tracing_ws/install/tracetools_read:/home/jqzhang/workspace/tracing_ws/install/rpyutils:/home/jqzhang/workspace/tracing_ws/install/rosidl_cli:/home/jqzhang/workspace/tracing_ws/install/launch_testing:/home/jqzhang/workspace/tracing_ws/install/launch:/home/jqzhang/workspace/tracing_ws/install/osrf_pycommon:/home/jqzhang/workspace/tracing_ws/install/domain_coordinator:/home/jqzhang/workspace/tracing_ws/install/ament_xmllint:/home/jqzhang/workspace/tracing_ws/install/ament_pep257:/home/jqzhang/workspace/tracing_ws/install/ament_package:/home/jqzhang/workspace/tracing_ws/install/ament_mypy:/home/jqzhang/workspace/tracing_ws/install/ament_lint_cmake:/home/jqzhang/workspace/tracing_ws/install/ament_flake8:/home/jqzhang/workspace/tracing_ws/install/ament_copyright:/home/jqzhang/workspace/tracing_ws/install/ament_lint:/home/jqzhang/workspace/tracing_ws/install/ament_index_python:/home/jqzhang/workspace/tracing_ws/install/ament_cpplint:/home/jqzhang/workspace/tracing_ws/install/ament_cppcheck:/home/jqzhang/workspace/turtlebot_cmd_ws/install/turtlebot_cmd:/opt/ros/galactic /usr/bin/cmake /home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client_interfaces -DCMAKE_INSTALL_PREFIX=/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces
+[1.891s] Invoking command in '/home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd:/home/jqzhang/workspace/tracing_ws/install/ros2trace:/home/jqzhang/workspace/tracing_ws/install/ros2cli:/home/jqzhang/workspace/tracing_ws/install/ament_uncrustify:/home/jqzhang/workspace/tracing_ws/install/tracetools_trace:/home/jqzhang/workspace/tracing_ws/install/tracetools_analysis:/home/jqzhang/workspace/tracing_ws/install/tracetools_read:/home/jqzhang/workspace/tracing_ws/install/rpyutils:/home/jqzhang/workspace/tracing_ws/install/rosidl_cli:/home/jqzhang/workspace/tracing_ws/install/launch_testing:/home/jqzhang/workspace/tracing_ws/install/launch:/home/jqzhang/workspace/tracing_ws/install/osrf_pycommon:/home/jqzhang/workspace/tracing_ws/install/domain_coordinator:/home/jqzhang/workspace/tracing_ws/install/ament_xmllint:/home/jqzhang/workspace/tracing_ws/install/ament_pep257:/home/jqzhang/workspace/tracing_ws/install/ament_package:/home/jqzhang/workspace/tracing_ws/install/ament_mypy:/home/jqzhang/workspace/tracing_ws/install/ament_lint_cmake:/home/jqzhang/workspace/tracing_ws/install/ament_flake8:/home/jqzhang/workspace/tracing_ws/install/ament_copyright:/home/jqzhang/workspace/tracing_ws/install/ament_lint:/home/jqzhang/workspace/tracing_ws/install/ament_index_python:/home/jqzhang/workspace/tracing_ws/install/ament_cpplint:/home/jqzhang/workspace/tracing_ws/install/ament_cppcheck:/home/jqzhang/workspace/turtlebot_cmd_ws/install/turtlebot_cmd:/opt/ros/galactic /usr/bin/cmake --build /home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces -- -j16 -l16
+[1.957s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.957s] [35m[1mScanning dependencies of target mqtt_client_interfaces__cpp[0m
+[1.970s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.214s] [  5%] Built target mqtt_client_interfaces__cpp
+[2.222s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_generator_c[0m
+[2.225s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.226s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.226s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.236s] [ 17%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mqtt_client_interfaces/msg/detail/ros_msg_type__functions.c.o[0m
+[2.237s] [ 17%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mqtt_client_interfaces/srv/detail/is_connected__functions.c.o[0m
+[2.283s] [ 20%] [32m[1mLinking C shared library libmqtt_client_interfaces__rosidl_generator_c.so[0m
+[2.322s] [ 20%] Built target mqtt_client_interfaces__rosidl_generator_c
+[2.335s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.335s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.444s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_cpp[0m
+[2.454s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.459s] [ 28%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mqtt_client_interfaces/srv/is_connected__type_support.cpp.o[0m
+[2.462s] [ 30%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mqtt_client_interfaces/msg/ros_msg_type__type_support.cpp.o[0m
+[2.469s] [ 35%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mqtt_client_interfaces/srv/detail/is_connected__type_support.cpp.o[0m
+[2.469s] [ 35%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mqtt_client_interfaces/msg/detail/ros_msg_type__type_support.cpp.o[0m
+[2.469s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.499s] [ 38%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mqtt_client_interfaces/msg/detail/dds_fastrtps/ros_msg_type__type_support.cpp.o[0m
+[2.502s] [ 41%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mqtt_client_interfaces/srv/detail/dds_fastrtps/is_connected__type_support.cpp.o[0m
+[2.569s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_c[0m
+[2.577s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_introspection_c[0m
+[2.589s] [ 43%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mqtt_client_interfaces/srv/is_connected__type_support.cpp.o[0m
+[2.590s] [ 46%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mqtt_client_interfaces/msg/ros_msg_type__type_support.cpp.o[0m
+[2.594s] [ 48%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mqtt_client_interfaces/msg/detail/ros_msg_type__type_support.c.o[0m
+[2.599s] [ 51%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mqtt_client_interfaces/srv/detail/is_connected__type_support.c.o[0m
+[2.631s] [ 53%] [32m[1mLinking CXX shared library libmqtt_client_interfaces__rosidl_typesupport_c.so[0m
+[2.649s] [ 56%] [32m[1mLinking C shared library libmqtt_client_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.674s] [ 56%] Built target mqtt_client_interfaces__rosidl_typesupport_c
+[2.682s] [ 56%] Built target mqtt_client_interfaces__rosidl_typesupport_introspection_c
+[2.711s] [ 58%] [32m[1mLinking CXX shared library libmqtt_client_interfaces__rosidl_typesupport_cpp.so[0m
+[2.715s] [ 61%] [32m[1mLinking CXX shared library libmqtt_client_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.754s] [ 61%] Built target mqtt_client_interfaces__rosidl_typesupport_cpp
+[2.769s] [ 61%] Built target mqtt_client_interfaces__rosidl_typesupport_introspection_cpp
+[2.853s] [ 64%] [32m[1mLinking CXX shared library libmqtt_client_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.934s] [ 64%] Built target mqtt_client_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.950s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.207s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.230s] [ 71%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mqtt_client_interfaces/srv/detail/is_connected__type_support_c.cpp.o[0m
+[3.230s] [ 71%] [32mBuilding CXX object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mqtt_client_interfaces/msg/detail/ros_msg_type__type_support_c.cpp.o[0m
+[3.502s] [ 74%] [32m[1mLinking CXX shared library libmqtt_client_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.589s] [ 74%] Built target mqtt_client_interfaces__rosidl_typesupport_fastrtps_c
+[3.607s] [35m[1mScanning dependencies of target mqtt_client_interfaces[0m
+[3.623s] [ 74%] Built target mqtt_client_interfaces
+[3.634s] [35m[1mScanning dependencies of target mqtt_client_interfaces__py[0m
+[3.653s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.094s] [ 76%] Built target mqtt_client_interfaces__py
+[4.108s] [35m[1mScanning dependencies of target mqtt_client_interfaces__python[0m
+[4.132s] [ 82%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__python.dir/rosidl_generator_py/mqtt_client_interfaces/msg/_ros_msg_type_s.c.o[0m
+[4.132s] [ 82%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__python.dir/rosidl_generator_py/mqtt_client_interfaces/srv/_is_connected_s.c.o[0m
+[4.213s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/mqtt_client_interfaces/libmqtt_client_interfaces__python.so[0m
+[4.270s] [ 84%] Built target mqtt_client_interfaces__python
+[4.286s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_c__pyext[0m
+[4.286s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.286s] [35m[1mScanning dependencies of target mqtt_client_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.302s] [ 92%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mqtt_client_interfaces/_mqtt_client_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.302s] [ 92%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mqtt_client_interfaces/_mqtt_client_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.303s] [ 92%] [32mBuilding C object CMakeFiles/mqtt_client_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mqtt_client_interfaces/_mqtt_client_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.374s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.374s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.376s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.408s] [100%] Built target mqtt_client_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.408s] [100%] Built target mqtt_client_interfaces__rosidl_typesupport_c__pyext
+[4.427s] [100%] Built target mqtt_client_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.438s] Invoked command in '/home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd:/home/jqzhang/workspace/tracing_ws/install/ros2trace:/home/jqzhang/workspace/tracing_ws/install/ros2cli:/home/jqzhang/workspace/tracing_ws/install/ament_uncrustify:/home/jqzhang/workspace/tracing_ws/install/tracetools_trace:/home/jqzhang/workspace/tracing_ws/install/tracetools_analysis:/home/jqzhang/workspace/tracing_ws/install/tracetools_read:/home/jqzhang/workspace/tracing_ws/install/rpyutils:/home/jqzhang/workspace/tracing_ws/install/rosidl_cli:/home/jqzhang/workspace/tracing_ws/install/launch_testing:/home/jqzhang/workspace/tracing_ws/install/launch:/home/jqzhang/workspace/tracing_ws/install/osrf_pycommon:/home/jqzhang/workspace/tracing_ws/install/domain_coordinator:/home/jqzhang/workspace/tracing_ws/install/ament_xmllint:/home/jqzhang/workspace/tracing_ws/install/ament_pep257:/home/jqzhang/workspace/tracing_ws/install/ament_package:/home/jqzhang/workspace/tracing_ws/install/ament_mypy:/home/jqzhang/workspace/tracing_ws/install/ament_lint_cmake:/home/jqzhang/workspace/tracing_ws/install/ament_flake8:/home/jqzhang/workspace/tracing_ws/install/ament_copyright:/home/jqzhang/workspace/tracing_ws/install/ament_lint:/home/jqzhang/workspace/tracing_ws/install/ament_index_python:/home/jqzhang/workspace/tracing_ws/install/ament_cpplint:/home/jqzhang/workspace/tracing_ws/install/ament_cppcheck:/home/jqzhang/workspace/turtlebot_cmd_ws/install/turtlebot_cmd:/opt/ros/galactic /usr/bin/cmake --build /home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces -- -j16 -l16
+[4.639s] Invoking command in '/home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd:/home/jqzhang/workspace/tracing_ws/install/ros2trace:/home/jqzhang/workspace/tracing_ws/install/ros2cli:/home/jqzhang/workspace/tracing_ws/install/ament_uncrustify:/home/jqzhang/workspace/tracing_ws/install/tracetools_trace:/home/jqzhang/workspace/tracing_ws/install/tracetools_analysis:/home/jqzhang/workspace/tracing_ws/install/tracetools_read:/home/jqzhang/workspace/tracing_ws/install/rpyutils:/home/jqzhang/workspace/tracing_ws/install/rosidl_cli:/home/jqzhang/workspace/tracing_ws/install/launch_testing:/home/jqzhang/workspace/tracing_ws/install/launch:/home/jqzhang/workspace/tracing_ws/install/osrf_pycommon:/home/jqzhang/workspace/tracing_ws/install/domain_coordinator:/home/jqzhang/workspace/tracing_ws/install/ament_xmllint:/home/jqzhang/workspace/tracing_ws/install/ament_pep257:/home/jqzhang/workspace/tracing_ws/install/ament_package:/home/jqzhang/workspace/tracing_ws/install/ament_mypy:/home/jqzhang/workspace/tracing_ws/install/ament_lint_cmake:/home/jqzhang/workspace/tracing_ws/install/ament_flake8:/home/jqzhang/workspace/tracing_ws/install/ament_copyright:/home/jqzhang/workspace/tracing_ws/install/ament_lint:/home/jqzhang/workspace/tracing_ws/install/ament_index_python:/home/jqzhang/workspace/tracing_ws/install/ament_cpplint:/home/jqzhang/workspace/tracing_ws/install/ament_cppcheck:/home/jqzhang/workspace/turtlebot_cmd_ws/install/turtlebot_cmd:/opt/ros/galactic /usr/bin/cmake --install /home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces
+[4.651s] -- Install configuration: ""
+[4.651s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/ament_index/resource_index/rosidl_interfaces/mqtt_client_interfaces
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/is_connected.h
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__struct.h
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__type_support.h
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__functions.h
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__functions.c
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/ros_msg_type.h
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__type_support.h
+[4.652s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__functions.c
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__struct.h
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__functions.h
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/environment/library_path.sh
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/environment/library_path.dsv
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_generator_c.so
+[4.653s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_generator_c.so" to ""
+[4.653s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces
+[4.653s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv
+[4.653s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__rosidl_typesupport_introspection_c.h
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__type_support.c
+[4.653s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.653s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail
+[4.653s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__rosidl_typesupport_introspection_c.h
+[4.654s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__type_support.c
+[4.654s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_introspection_c.so
+[4.654s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.654s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces
+[4.654s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv
+[4.654s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail
+[4.654s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__rosidl_typesupport_fastrtps_c.h
+[4.654s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg
+[4.654s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.654s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail
+[4.654s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__rosidl_typesupport_fastrtps_c.h
+[4.654s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.654s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.654s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces
+[4.654s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv
+[4.654s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail
+[4.655s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/dds_fastrtps
+[4.655s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__rosidl_typesupport_fastrtps_cpp.hpp
+[4.655s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg
+[4.655s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail
+[4.655s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/dds_fastrtps
+[4.655s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__rosidl_typesupport_fastrtps_cpp.hpp
+[4.655s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.655s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.655s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.655s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_c.so
+[4.655s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_c.so" to ""
+[4.655s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces
+[4.655s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv
+[4.655s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/is_connected.hpp
+[4.656s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__struct.hpp
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__traits.hpp
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__builder.hpp
+[4.656s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/ros_msg_type.hpp
+[4.656s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__traits.hpp
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__struct.hpp
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__builder.hpp
+[4.656s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces
+[4.656s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv
+[4.656s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__rosidl_typesupport_introspection_cpp.hpp
+[4.656s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/srv/detail/is_connected__type_support.cpp
+[4.656s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg
+[4.657s] -- Up-to-date: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail
+[4.657s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__rosidl_typesupport_introspection_cpp.hpp
+[4.657s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/mqtt_client_interfaces/msg/detail/ros_msg_type__type_support.cpp
+[4.657s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.657s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.657s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_cpp.so
+[4.657s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.657s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/environment/pythonpath.sh
+[4.657s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/environment/pythonpath.dsv
+[4.657s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/__init__.py
+[4.696s] Compiling '/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/__init__.py'...
+[4.698s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/msg
+[4.698s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/msg/_ros_msg_type.py
+[4.699s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/msg/_ros_msg_type_s.c
+[4.699s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/msg/__init__.py
+[4.699s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/srv
+[4.699s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/srv/__init__.py
+[4.699s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/srv/_is_connected.py
+[4.699s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/srv/_is_connected_s.c
+[4.700s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.701s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.702s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.703s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.704s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.705s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/python3.8/site-packages/mqtt_client_interfaces/mqtt_client_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.706s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__python.so
+[4.706s] -- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/lib/libmqtt_client_interfaces__python.so" to ""
+[4.706s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/msg/RosMsgType.idl
+[4.707s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/srv/IsConnected.idl
+[4.707s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/msg/RosMsgType.msg
+[4.708s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/srv/IsConnected.srv
+[4.708s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/srv/IsConnected_Request.msg
+[4.708s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/srv/IsConnected_Response.msg
+[4.709s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/ament_index/resource_index/package_run_dependencies/mqtt_client_interfaces
+[4.710s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/ament_index/resource_index/parent_prefix_path/mqtt_client_interfaces
+[4.710s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/environment/ament_prefix_path.sh
+[4.711s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/environment/ament_prefix_path.dsv
+[4.711s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/environment/path.sh
+[4.712s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/environment/path.dsv
+[4.712s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/local_setup.bash
+[4.713s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/local_setup.sh
+[4.713s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/local_setup.zsh
+[4.714s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/local_setup.dsv
+[4.714s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/package.dsv
+[4.714s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/ament_index/resource_index/packages/mqtt_client_interfaces
+[4.714s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_generator_cExport.cmake
+[4.715s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.715s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.715s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.715s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_typesupport_cExport.cmake
+[4.715s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.715s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_generator_cppExport.cmake
+[4.716s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.716s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.716s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_typesupport_cppExport.cmake
+[4.716s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.716s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.716s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.716s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.717s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.717s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.717s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.717s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.717s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfacesConfig.cmake
+[4.717s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake/mqtt_client_interfacesConfig-version.cmake
+[4.717s] -- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/package.xml
+[4.722s] Invoked command in '/home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd:/home/jqzhang/workspace/tracing_ws/install/ros2trace:/home/jqzhang/workspace/tracing_ws/install/ros2cli:/home/jqzhang/workspace/tracing_ws/install/ament_uncrustify:/home/jqzhang/workspace/tracing_ws/install/tracetools_trace:/home/jqzhang/workspace/tracing_ws/install/tracetools_analysis:/home/jqzhang/workspace/tracing_ws/install/tracetools_read:/home/jqzhang/workspace/tracing_ws/install/rpyutils:/home/jqzhang/workspace/tracing_ws/install/rosidl_cli:/home/jqzhang/workspace/tracing_ws/install/launch_testing:/home/jqzhang/workspace/tracing_ws/install/launch:/home/jqzhang/workspace/tracing_ws/install/osrf_pycommon:/home/jqzhang/workspace/tracing_ws/install/domain_coordinator:/home/jqzhang/workspace/tracing_ws/install/ament_xmllint:/home/jqzhang/workspace/tracing_ws/install/ament_pep257:/home/jqzhang/workspace/tracing_ws/install/ament_package:/home/jqzhang/workspace/tracing_ws/install/ament_mypy:/home/jqzhang/workspace/tracing_ws/install/ament_lint_cmake:/home/jqzhang/workspace/tracing_ws/install/ament_flake8:/home/jqzhang/workspace/tracing_ws/install/ament_copyright:/home/jqzhang/workspace/tracing_ws/install/ament_lint:/home/jqzhang/workspace/tracing_ws/install/ament_index_python:/home/jqzhang/workspace/tracing_ws/install/ament_cpplint:/home/jqzhang/workspace/tracing_ws/install/ament_cppcheck:/home/jqzhang/workspace/turtlebot_cmd_ws/install/turtlebot_cmd:/opt/ros/galactic /usr/bin/cmake --install /home/jqzhang/workspace/turtlebot_ws/build/mqtt_client_interfaces

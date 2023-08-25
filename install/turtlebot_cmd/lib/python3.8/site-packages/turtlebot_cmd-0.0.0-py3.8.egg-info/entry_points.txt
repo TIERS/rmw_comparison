@@ -1,0 +1,3 @@
+[console_scripts]
+cmd_node = turtlebot_cmd.cmd_node:main
+

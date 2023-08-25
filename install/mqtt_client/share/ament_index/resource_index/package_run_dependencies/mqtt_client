@@ -1,0 +1,1 @@
+mqtt_client_interfaces;ros_environment;std_msgs;libpaho-mqtt-dev;libpaho-mqttpp-dev;rclcpp;rcpputils

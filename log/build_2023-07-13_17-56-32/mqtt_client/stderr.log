@@ -1,0 +1,20 @@
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:[m[K In member function ‘[01m[Kvirtual void mqtt_client::MqttClient::connected(const string&)[m[K’:
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:840:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcause[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  840 | void MqttClient::connected([01;35m[Kconst std::string& cause[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:[m[K In member function ‘[01m[Kvirtual void mqtt_client::MqttClient::connection_lost(const string&)[m[K’:
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:862:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcause[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  862 | void MqttClient::connection_lost([01;35m[Kconst std::string& cause[m[K) {
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:[m[K In member function ‘[01m[Kvoid mqtt_client::MqttClient::isConnectedService(mqtt_client_interfaces::srv::IsConnected_Request_<std::allocator<void> >::SharedPtr, mqtt_client_interfaces::srv::IsConnected_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:878:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  878 |   [01;35m[Kmqtt_client_interfaces::srv::IsConnected::Request::SharedPtr request[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:[m[K In member function ‘[01m[Kvirtual void mqtt_client::MqttClient::delivery_complete(mqtt::delivery_token_ptr)[m[K’:
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:968:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktoken[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  968 | void MqttClient::delivery_complete([01;35m[Kmqtt::delivery_token_ptr token[m[K) {}
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:[m[K In member function ‘[01m[Kvirtual void mqtt_client::MqttClient::on_success(const mqtt::token&)[m[K’:
+[01m[K/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/src/MqttClient.ros2.cpp:971:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktoken[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  971 | void MqttClient::on_success([01;35m[Kconst mqtt::token& token[m[K) {
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K

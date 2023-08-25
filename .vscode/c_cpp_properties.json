@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/test_msgs/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rcl_action/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/action_msgs/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/unique_identifier_msgs/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/performance_test/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rclcpp/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/libstatistics_collector/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rcl/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/tracetools/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/mqtt_client_interfaces/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/std_msgs/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/statistics_msgs/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rmw_connextdds_common/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosgraph_msgs/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rmw_fastrtps_dynamic_cpp/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rmw_fastrtps_cpp/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rmw_fastrtps_shared_cpp/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rmw_dds_common/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rcl_interfaces/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/builtin_interfaces/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_typesupport_cpp/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_typesupport_introspection_cpp/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_typesupport_c/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_typesupport_introspection_c/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_typesupport_fastrtps_c/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_typesupport_fastrtps_cpp/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rcl_yaml_param_parser/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rmw/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_runtime_c/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_typesupport_interface/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rosidl_runtime_cpp/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rcpputils/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rcl_logging_interface/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/rcutils/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/pybind11_vendor/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/performance_test_fixture/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/mimick_vendor/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/libyaml_vendor/include/**",
+        "/home/jqzhang/workspace/tracing_ws/install/ament_index_cpp/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

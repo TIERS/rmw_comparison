@@ -1,0 +1,4 @@
+source;share/mqtt_client_interfaces/environment/ament_prefix_path.sh
+source;share/mqtt_client_interfaces/environment/library_path.sh
+source;share/mqtt_client_interfaces/environment/path.sh
+source;share/mqtt_client_interfaces/environment/pythonpath.sh

@@ -1,0 +1,7 @@
+{
+  "package_name": "mqtt_client_interfaces",
+  "non_idl_tuples": [
+    "/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client_interfaces:msg/RosMsgType.msg",
+    "/home/jqzhang/workspace/turtlebot_ws/src/mqtt_client/mqtt_client_interfaces:srv/IsConnected.srv"
+  ]
+}

@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/home/jqzhang/workspace/tracing_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found mqtt_client_interfaces: 1.1.0 (/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client_interfaces/share/mqtt_client_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 2.2.3 (/home/jqzhang/workspace/tracing_ws/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/jqzhang/workspace/tracing_ws/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rclcpp: 9.2.2 (/home/jqzhang/workspace/tracing_ws/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/home/jqzhang/workspace/tracing_ws/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/home/jqzhang/workspace/tracing_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.10.7 (/home/jqzhang/workspace/tracing_ws/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jqzhang/workspace/turtlebot_ws/build/mqtt_client
+[35m[1mScanning dependencies of target mqtt_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mqtt_client.dir/src/MqttClient.ros2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mqtt_client[0m
+[100%] Built target mqtt_client
+-- Install configuration: ""
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/lib/mqtt_client/mqtt_client
+-- Set runtime path of "/home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/lib/mqtt_client/mqtt_client" to ""
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/launch
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/launch/standalone.launch.ros2.xml
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/config
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/config/params.ros2.broker.yaml
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/config/params.ros2.yaml
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/config/params.ros2.primitive.yaml
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/ament_index/resource_index/package_run_dependencies/mqtt_client
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/ament_index/resource_index/parent_prefix_path/mqtt_client
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/environment/ament_prefix_path.sh
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/environment/ament_prefix_path.dsv
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/environment/path.sh
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/environment/path.dsv
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/local_setup.bash
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/local_setup.sh
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/local_setup.zsh
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/local_setup.dsv
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/package.dsv
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/ament_index/resource_index/packages/mqtt_client
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/cmake/mqtt_clientConfig.cmake
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/cmake/mqtt_clientConfig-version.cmake
+-- Installing: /home/jqzhang/workspace/turtlebot_ws/install/mqtt_client/share/mqtt_client/package.xml

@@ -1,0 +1,21 @@
+[0.614s] Invoking command in '/home/jqzhang/workspace/turtlebot_ws/src/turtlebot_cmd': PYTHONPATH=/home/jqzhang/workspace/turtlebot_ws/build/turtlebot_cmd/prefix_override:/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot_cmd build --build-base /home/jqzhang/workspace/turtlebot_ws/build/turtlebot_cmd/build install --record /home/jqzhang/workspace/turtlebot_ws/build/turtlebot_cmd/install.log --single-version-externally-managed
+[0.811s] running egg_info
+[0.811s] writing ../../build/turtlebot_cmd/turtlebot_cmd.egg-info/PKG-INFO
+[0.811s] writing dependency_links to ../../build/turtlebot_cmd/turtlebot_cmd.egg-info/dependency_links.txt
+[0.812s] writing entry points to ../../build/turtlebot_cmd/turtlebot_cmd.egg-info/entry_points.txt
+[0.812s] writing requirements to ../../build/turtlebot_cmd/turtlebot_cmd.egg-info/requires.txt
+[0.812s] writing top-level names to ../../build/turtlebot_cmd/turtlebot_cmd.egg-info/top_level.txt
+[0.838s] reading manifest file '../../build/turtlebot_cmd/turtlebot_cmd.egg-info/SOURCES.txt'
+[0.838s] writing manifest file '../../build/turtlebot_cmd/turtlebot_cmd.egg-info/SOURCES.txt'
+[0.839s] running build
+[0.839s] running build_py
+[0.839s] running install
+[0.840s] running install_lib
+[0.841s] running install_data
+[0.841s] running install_egg_info
+[0.842s] removing '/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd/lib/python3.8/site-packages/turtlebot_cmd-0.0.0-py3.8.egg-info' (and everything under it)
+[0.842s] Copying ../../build/turtlebot_cmd/turtlebot_cmd.egg-info to /home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd/lib/python3.8/site-packages/turtlebot_cmd-0.0.0-py3.8.egg-info
+[0.843s] running install_scripts
+[0.856s] Installing cmd_node script to /home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd/lib/turtlebot_cmd
+[0.856s] writing list of installed files to '/home/jqzhang/workspace/turtlebot_ws/build/turtlebot_cmd/install.log'
+[0.871s] Invoked command in '/home/jqzhang/workspace/turtlebot_ws/src/turtlebot_cmd' returned '0': PYTHONPATH=/home/jqzhang/workspace/turtlebot_ws/build/turtlebot_cmd/prefix_override:/home/jqzhang/workspace/turtlebot_ws/install/turtlebot_cmd/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot_cmd build --build-base /home/jqzhang/workspace/turtlebot_ws/build/turtlebot_cmd/build install --record /home/jqzhang/workspace/turtlebot_ws/build/turtlebot_cmd/install.log --single-version-externally-managed

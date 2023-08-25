@@ -1,0 +1,12 @@
+mqtt_client:
+  ros__parameters:
+    broker:
+      host: 192.168.50.3
+      port: 1883
+    bridge:
+      ros2mqtt:
+        ros_topic: /turtle07/cmd_vel
+        mqtt_topic: turtle07/cmd_vel/ros
+      mqtt2ros:
+        mqtt_topic: turtle07/odom/ros
+        ros_topic: /turtle07/odom
