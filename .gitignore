@@ -1,13 +1,9 @@
-experiment/cyclonedds_square_1200_datarange.csv
 experiment/cyclonedds_square1200_trajectory.png
 experiment/fastdds_square_1200_1_datarange.csv
-experiment/fastdds_square_1200_datarange.csv
 experiment/fastdds_square1200_1_trajectory.png
 experiment/fastdds_square1200_trajectory.png
-experiment/mqtt_square_1200_datarange.csv
 experiment/mqtt_square1200_trajectory.png
 experiment/square_1200_datarange.zip
-experiment/zenoh_square_1200_1_datarange.csv
 experiment/zenoh_square_1200_1_statistics.csv
 experiment/zenoh_square1200_1_trajectory.png
 experiment/cyclonedds_square1200/cyclonedds_square1200_0.db3
