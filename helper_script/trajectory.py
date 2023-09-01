@@ -28,7 +28,7 @@ for idx in range(len(name_list)):
 
     
     plt.subplot(2, 2, idx+1)
-    plt.plot(traj_x, traj_y)
+    plt.plot(traj_x[::3], traj_y[::3])
     plt.xlabel("x (m)")
     plt.ylabel("y (m)")
     # plt.title(name_list[idx])
@@ -36,5 +36,5 @@ for idx in range(len(name_list)):
 plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=0.5, hspace=0.5)
 
 # plt.show()
-plt.savefig('trajectory_plot.png') 
-tikz.save('trajectory_plot.tex')
+plt.savefig('trajectory_plot_ds3.png') 
+tikz.save('trajectory_plot_ds3.tex')
