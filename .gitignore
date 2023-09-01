@@ -18,3 +18,4 @@ experiment/zenoh_square1200/metadata.yaml
 experiment/zenoh_square1200/zenoh_square1200_0.db3
 experiment/zenoh_square1200_1/metadata.yaml
 experiment/zenoh_square1200_1/zenoh_square1200_1_0.db3
+src/mqtt_client
