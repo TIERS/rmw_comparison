@@ -1,3 +1,13 @@
+If you find the code or data in this repository useful in your research, the related paper is available in arXiv:
+  ```
+  @article{jiaqiang2023comparison, 
+      title="Comparison of DDS, MQTT, and Zenoh in Edge-to-Edge/Cloud Communication with ROS2", 
+      author="Jiaqiang Zhang and Xianjia Yu and Sier Ha and Jorge {Pe\~na Queralta} and Tomi Westerlund", 
+      journal="arXiv", 
+      year="2023"
+  }
+  ```
+
 # rmw_comparison
 
 [Build `ros2_tracing` and `performance_test`](https://ros-realtime.github.io/Guides/ros2_tracing_trace_and_analyze.html)
