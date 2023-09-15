@@ -1,11 +1,13 @@
-If you find the code or data in this repository useful in your research, the related paper is available in arXiv:
+If you find the code or data in this repository useful in your research, [the related paper is available in arXiv]{https://arxiv.org/abs/2309.07496}:
   ```
-  @article{jiaqiang2023comparison, 
-      title="Comparison of DDS, MQTT, and Zenoh in Edge-to-Edge/Cloud Communication with ROS2", 
-      author="Jiaqiang Zhang and Xianjia Yu and Sier Ha and Jorge {Pe\~na Queralta} and Tomi Westerlund", 
-      journal="arXiv", 
-      year="2023"
-  }
+ @misc{zhang2023comparison,
+      title={Comparison of DDS, MQTT, and Zenoh in Edge-to-Edge/Cloud Communication with ROS 2}, 
+      author={Jiaqiang Zhang and Xianjia Yu and Sier Ha and Jorge Pena Queralta and Tomi Westerlund},
+      year={2023},
+      eprint={2309.07496},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
   ```
 
 # rmw_comparison
