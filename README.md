@@ -1,4 +1,4 @@
-If you find the code or data in this repository useful in your research, [the related paper is available in arXiv]{https://arxiv.org/abs/2309.07496}:
+If you find the code or data in this repository useful in your research, [the related paper is available in arXiv](https://arxiv.org/abs/2309.07496):
   ```
  @misc{zhang2023comparison,
       title={Comparison of DDS, MQTT, and Zenoh in Edge-to-Edge/Cloud Communication with ROS 2}, 
